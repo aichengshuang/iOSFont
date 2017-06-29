@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="iOSFont" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="labs" destination="gtS-r9-fBi" collectionClass="NSMutableArray" id="1O1-IG-kA6"/>
+                <outletCollection property="labs" destination="Sz2-MU-3WP" collectionClass="NSMutableArray" id="zx6-ee-GnK"/>
+                <outletCollection property="labs" destination="2jJ-KJ-UdQ" collectionClass="NSMutableArray" id="gUs-cl-gbM"/>
+                <outletCollection property="labs" destination="DvP-hS-OgH" collectionClass="NSMutableArray" id="4SC-XP-US1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="这是测试字体" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtS-r9-fBi">
+                    <rect key="frame" x="32" y="139" width="310" height="62"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is to test the font" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz2-MU-3WP">
+                    <rect key="frame" x="32" y="222" width="310" height="62"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0 1 2 3 4 5 6 7 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jJ-KJ-UdQ">
+                    <rect key="frame" x="32" y="314" width="310" height="62"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+ - * / ~ ! @ # $ % ^ &amp; ( ) _ = { } | \ : &quot; ; ' , . ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvP-hS-OgH">
+                    <rect key="frame" x="32" y="404" width="321" height="62"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2jJ-KJ-UdQ" firstAttribute="height" secondItem="gtS-r9-fBi" secondAttribute="height" id="4f2-1i-iEO"/>
+                <constraint firstItem="Sz2-MU-3WP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AVz-Eb-PeA"/>
+                <constraint firstItem="DvP-hS-OgH" firstAttribute="top" secondItem="2jJ-KJ-UdQ" secondAttribute="bottom" constant="35" id="BRH-fo-Zam"/>
+                <constraint firstItem="DvP-hS-OgH" firstAttribute="height" secondItem="gtS-r9-fBi" secondAttribute="height" id="BRc-WD-2W5"/>
+                <constraint firstItem="Sz2-MU-3WP" firstAttribute="top" secondItem="gtS-r9-fBi" secondAttribute="bottom" constant="35" id="Ivp-Cl-9J4"/>
+                <constraint firstItem="DvP-hS-OgH" firstAttribute="width" secondItem="gtS-r9-fBi" secondAttribute="width" id="JVD-D5-jQe"/>
+                <constraint firstItem="Sz2-MU-3WP" firstAttribute="width" secondItem="gtS-r9-fBi" secondAttribute="width" id="KnG-yb-dF2"/>
+                <constraint firstItem="DvP-hS-OgH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WbW-c4-5Th"/>
+                <constraint firstItem="2jJ-KJ-UdQ" firstAttribute="width" secondItem="gtS-r9-fBi" secondAttribute="width" id="YBB-zY-fr7"/>
+                <constraint firstItem="gtS-r9-fBi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="ZKS-ya-Cul"/>
+                <constraint firstItem="Sz2-MU-3WP" firstAttribute="height" secondItem="gtS-r9-fBi" secondAttribute="height" id="hfH-g5-o5D"/>
+                <constraint firstItem="2jJ-KJ-UdQ" firstAttribute="top" secondItem="Sz2-MU-3WP" secondAttribute="bottom" constant="35" id="vGa-e0-Z1b"/>
+                <constraint firstItem="gtS-r9-fBi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="w9K-9F-vNg"/>
+                <constraint firstItem="2jJ-KJ-UdQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xO7-1v-fuJ"/>
+                <constraint firstItem="gtS-r9-fBi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="135" id="zZH-WV-I3L"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
